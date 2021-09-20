@@ -14,5 +14,6 @@ public class ResultLeaf extends ResultComponent implements ISubject {
 	
 	public void setValue(double value) {
 		this.result = value;
+		super.notifyObervers();
 	}
 }

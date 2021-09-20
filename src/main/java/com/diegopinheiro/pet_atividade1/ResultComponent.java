@@ -1,9 +1,11 @@
 package com.diegopinheiro.pet_atividade1;
 
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
 
 public abstract class ResultComponent implements ISubject {
-	protected List<IObserver> observersList = new ArrayList<>();	
+	protected List<IObserver> observersList = new ArrayList<>();
+	
 	public abstract double getResult();
 	
 	@Override
