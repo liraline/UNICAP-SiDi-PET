@@ -1,6 +1,6 @@
 package com.diegopinheiro.pet_atividade1;
 
-public class ResultLeaf extends ResultComponent implements ISubject {
+public class ResultLeaf extends ResultComponent {
 	public double result;
 	
 	public ResultLeaf(double result) {
